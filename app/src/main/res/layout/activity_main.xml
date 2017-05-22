@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="me.ele.x5.MainActivity"
+    >
+
+
+  <Button
+      android:id="@+id/btn_set_cookie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Set cookie"
+      />
+
+  <Button
+      android:id="@+id/btn_read_cookie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Read cookie"
+      />
+
+  <TextView
+      android:id="@+id/cookie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      />
+
+  <Button
+      android:id="@+id/btn_export_file"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Export file"
+      />
+</LinearLayout>
